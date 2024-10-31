@@ -28,7 +28,7 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libshim_gps
+    libshim_gpsd
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \

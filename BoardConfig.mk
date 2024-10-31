@@ -37,7 +37,7 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 
 # Shims
 TARGET_LD_SHIM_LIBS += \
-    /vendor/bin/gpsd|/vendor/lib/libshim_gps.so
+    /vendor/bin/gpsd|/vendor/lib/libshim_gpsd.so
 
 # Inherit from the proprietary version
 -include vendor/samsung/klimtwifi/BoardConfigVendor.mk
